@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+textarea {
+  width: 50%;
+  height: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.preview {
+  width: 50%;
+  height: 80%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-left: 1px solid #ccc;
+}

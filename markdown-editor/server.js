@@ -13,7 +13,6 @@ app.get("/convert", (req, res) => {
 });
 
 const markdownToHtml = (markdown) => {
-  // Basic conversion logic
   return markdown
     .replace(/# /g, "<h1>")
     .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
